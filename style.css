@@ -101,6 +101,7 @@ html{
     transition: .4s;
 }
 
+
 /* Project Gallery */
 
 .container {
@@ -269,7 +270,7 @@ html{
 
 .about{
     width: 100%;
-    padding: 200px 0;
+    padding: 150px 0;
     background-color: #191919;
     align-content: center;
     text-align: center;
@@ -295,20 +296,20 @@ html{
 }
 
 .about-text h2{
-    color: white;
+    color: #F9F9F9;
     font-size: 75px;
     font-family: "MontBold";
     margin-top: 20px;
 }
 .about-text h3{
-    color: white;
+    color: #F9F9F9;
     letter-spacing: 2px;
     font-size: 22px;
     font-family: "MontSemiBold";
     margin-bottom: 25px;
 }
 .about-text p{
-    color: #fadcdc;
+    color: #f8e3e3;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;

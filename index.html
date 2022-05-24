@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Stricker Portfolio</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src="https://kit.fontawesome.com/1f89e78946.js" crossorigin="anonymous"></script>
 </head>
@@ -16,29 +16,30 @@
             <div class="logo_container" href="index.html">
                 <a href="index.html"><li>CHRISTIAN<span> STRICKER</span></li></a>
             </div>
-            <ul class="navbar">
+            <ul class="navbar" id="navBar">
                 <a href="#home"><li>ABOUT</li></a>
                 <a href="#projects"><li>PROJECTS</li></a>
-                <a href="https://www.linkedin.com/in/christian-stricker-68a08923a/" target="_blank"><li><img class="linkedin" src="images/linkedin.png" width="18" height="18"></li></a>
+                <a href="https://www.linkedin.com/in/christian-stricker-68a08923a/" target="_blank"><li><img class="linkedin" src="images/linkedin.png" width="18" height="18"></li></a>                    
             </ul>
         </div>
     </div>
 
     <!--About ME-->
     <section class="about">
-        <div class="main">
-            <img src="images/aboutme.jpg">
-            <div class="about-text">
+        <div class="main"> 
+            <img class="img-me" src="images/aboutme.jpg">
+            <div class="about-text"> <!--article-->
                 <h2> ABOUT ME</h2>
                 <h3>Student in UX Design</h3>
-                <p>My passion for digital media has led me to pursue a career in Media.  
-                    Currently I am studying for a bachelors in ICT & Media Design, 
-                    as well as doing freelance designs on the side. 
+                <p>My passion for digital media has led me to pursue a career in the media industry.  
+                    Currently I am studying for a Bachelor in ICT & Media Design, 
+                    and working as a social media manager for athletes based in Denmark. On top of this, I also do freelance designs on the side.  
                     Shown in many of my designs I also have an involvement in motorsports. 
                     Being able to combine both of these passions allows me to use different skills sets 
-                    needed in each industry and combine them into one. I thrive off working with other people and 
+                    needed in each industry and combine them into one. </p>
+                <p> I thrive off working with other people and 
                     delivering a product that exceeds the client’s expectations. 
-                    Although my main design work so far has been liveries and logos, I am not limited to this work. I have also successfully
+                    Although my main designs so far have been liveries and logos, I am not limited to this work. I have also successfully
                      created other media content such as broadcasting and advertising material. </p>
             </div>
         </div>
@@ -143,6 +144,5 @@
         $('.scrollspy').scrollSpy();
         });
     </script>
-      
 </body>
 </html>
