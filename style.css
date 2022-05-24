@@ -136,7 +136,7 @@ html{
   .box1 {
     background-color: hsl(31, 77%, 52%);
     border-radius: 20px;
-    background-image: url(images/livery.png);
+    background-image: url(images/livery.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -149,7 +149,7 @@ html{
   .box2 {
     background-color: hsl(184, 100%, 22%);
     border-radius: 20px;
-    background-image: url(images/logo.png);
+    background-image: url(images/logo.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -161,7 +161,7 @@ html{
   .box3 {
     background-color: hsl(179, 100%, 13%);
     border-radius: 20px;
-    background-image: url(images/other.png);
+    background-image: url(images/other.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
