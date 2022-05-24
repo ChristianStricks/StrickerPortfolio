@@ -1,0 +1,578 @@
+@font-face {
+    font-family: "MontRegular";
+    src: url(fonts/Montserrat-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "MontSemiBold";
+    src: url(fonts/Montserrat-SemiBold.ttf);
+  }
+  
+  @font-face {
+    font-family: "MontBold";
+    src: url(fonts/Montserrat-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: "MontThin";
+    src: url(fonts/Montserrat-Thin.ttf);
+  }
+
+  @font-face {
+    font-family: "MontMedium";
+    src: url(fonts/Montserrat-Medium.ttf);
+  }
+/* Font Families Above */
+
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+/* Navbar Styling */
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color:#F9F9F9;
+    position: fixed;
+    z-index: 1;
+}
+
+.inheader{
+    width: 95%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container a{
+    color: black;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "MontThin";
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 600;
+}
+
+.logo_container a span{
+    font-family: "MontSemiBold";
+}
+
+.navbar{
+    float: right;
+    height: 100%;
+}
+
+.navbar a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.navbar a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: black;
+    font-family: "MontSemiBold";
+    font-size: 16px;
+}
+
+.navbar a li:hover{
+    color: red;
+    transition: .4s;
+}
+
+/* Project Gallery */
+
+.container {
+    width: 100%;
+    column-gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .container2 {
+    width: 100%;
+    column-gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    text-align: center;
+    margin-bottom: 130px;  
+  }
+
+  .box {
+    width: 400px;
+    padding: 15px;
+    max-height: 600px;
+    animation-iteration-count: linear;
+    transform-origin: bottom;
+  }
+  
+  .box1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 20px;
+    background-image: url(images/livery.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-top: 80px;
+    animation-iteration-count: linear;
+    transform-origin: bottom;
+  }
+  
+  .box2 {
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 20px;
+    background-image: url(images/logo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    animation-iteration-count: linear;
+    transform-origin: bottom;
+  }
+  
+  .box3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 20px;
+    background-image: url(images/other.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-top: 80px;
+    animation-iteration-count: linear;
+    transform-origin: bottom;
+  }
+  /*
+  .box4 {
+    background-color: hsl(251, 100%, 13%);
+    border-radius: 20px;
+    background-image: url(/assets/Rewards.png);
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-top: 80px;
+    animation-iteration-count: linear;
+    transform-origin: bottom;
+  }
+  .box5 {
+    background-color: hsl(251, 100%, 13%);
+    border-radius: 20px;
+    background-image: url(/assets/Rewards.png);
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    animation-iteration-count: linear;
+    transform-origin: bottom;
+  }
+  .box6 {
+    background-color: hsl(251, 100%, 13%);
+    border-radius: 20px;
+    background-image: url(/assets/Rewards.png);
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-top: 80px;
+    animation-iteration-count: linear;
+    transform-origin: bottom;
+  }
+  */
+  
+  .content {
+    padding: 40px;
+    padding-top: 400px;
+    animation-iteration-count: linear;
+    transform-origin: bottom;
+  }
+    
+  .contentbox {
+    background-color: rgba(10, 10, 10, 0.7);
+    padding-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 5px;
+    animation-iteration-count: linear;
+    transform-origin: bottom;
+  }
+  
+  .contentbox h1 {
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-family: "MontBold";
+    margin: 15px 0;  
+  }
+    
+  
+  .contentbox .btn {
+    width: 75%;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    font-family: "MontSemiBold";
+    font-weight: 600;
+    font-size: 15px;
+    background-color: hsl(0, 100%, 59%);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .contentbox .btn:hover {
+    background-color: transparent;
+    border: 2px solid #FFF;
+    color: #FFF;
+    transition: 0.4s;
+  }
+
+  .project-text{
+    position: relative;
+    text-align: center;
+  }
+
+  .project-text h2{
+    color: white;
+    font-size: 75px;
+    font-family: "MontBold";
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+/* About Me Page*/
+
+.about{
+    width: 100%;
+    padding: 200px 0;
+    background-color: #191919;
+    align-content: center;
+    text-align: center;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+    position: relative;
+    text-align:left;
+    margin-left: 8%;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    font-family: "MontBold";
+    margin-top: 20px;
+}
+.about-text h3{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-family: "MontSemiBold";
+    margin-bottom: 25px;
+}
+.about-text p{
+    color: #fadcdc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    font-family: "MontRegular";
+    margin-bottom: 45px;
+}
+
+body{
+    background-color: #2c2c2c;
+}
+
+/*Livery Page*/
+.gallery{
+  width: 100%;
+  padding: 40px 0;
+  background-color: #2c2c2c;
+}
+.liveries h1{
+  padding-top: 50px;
+  text-align: center;
+  color: #F9F9F9;
+  font-family: "MontBold";
+  font-size: 75px;
+  padding-bottom: 40px;
+}
+.liveries p{
+  text-align: center;
+  color: #F9F9F9;
+  font-family: "MontRegular";
+  font-size: 24px;
+}
+.boxes{
+  margin: 10px 50px;
+  text-align: center;
+  padding-top: 40px;
+}
+.boxes2{
+  margin: 10px 50px;
+  text-align: center;
+}
+
+.boxes3{
+  margin: 10px 50px;
+  text-align: center;
+}
+
+.boxes img{
+  padding: 10px;
+  transition: 1s;
+}
+
+.boxes2 img{
+  padding: 10px;
+  transition: 1s;
+}
+
+.boxes3 img{
+  padding: 10px;
+  transition: 1s;
+}
+
+.boxes img:hover{
+  transform: scale(1.1);
+}
+
+.boxes2 img:hover{
+  transform: scale(1.1);
+}
+
+.boxes3 img:hover{
+  transform: scale(1.1);
+}
+
+.btnnav{
+  display: flex;
+  justify-content: right;
+  padding-top: 50px;
+  padding-right: 2%;
+}
+
+.btnnav a{
+  list-style: none;
+  width: 6%;
+  padding: 10px;
+}
+.btnnav .btn{
+  border: none;
+  width: 100%;
+    border-radius: 10px;
+    height: 38px;
+    font-family: "MontSemiBold";
+    font-size: 12px;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    color: #FFF;
+    color: white;
+    cursor: pointer;
+}
+.btnnav .btn:hover{
+  background-color: hsl(0, 100%, 59%);
+  border: 2px solid #FFF;
+  color: #FFF;
+  transition: 0.4s;
+}
+/*Video Player*/
+
+.videofeed{
+  width: 100%;
+  padding: 100px 0;
+  background-color: #2c2c2c;
+}
+.videopara p{
+  text-align: center;
+  color: #F9F9F9;
+  font-family: "MontRegular";
+  font-size: 24px;
+  padding-bottom: 40px;
+}
+
+.titletext{
+  font-family: "MontBold";
+  color: #F9F9F9;
+  font-size: 90px;
+  text-align: center;
+  padding: 40px;
+}
+
+.videocontainer{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 15px;
+  align-items: flex-start;
+  padding: 5px 5%;
+}
+
+.mainvid{
+  background: #FFF;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.video{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.videosize{
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+.subtitle{
+  color: #333;
+  font-size: 23px;
+  font-family: "MontRegular";
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.mainsubtitle{
+  color: #333;
+  font-size: 23px;
+  font-family: "MontRegular";
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.videolist{
+  background: #fff;
+  border-radius: 5px;
+  height: 707px;
+  overflow-y: scroll;
+}
+.videolist::-webkit-scrollbar{
+  width: 10px;
+}
+.videolist::-webkit-scrollbar-track{
+  background: #ccc;
+  border-radius: 50px;
+}
+.videolist::-webkit-scrollbar-thumb{
+  background: #666;
+  border-radius: 50px;
+}
+
+.vid video{
+  width: 200px;
+  border-radius: 5px;
+}
+
+.vid{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-radius: 5px;
+  background: #F9F9F9;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+
+.vid:hover{
+  background: rgba(177, 177, 177, 0.8);
+}
+
+.vid.active{
+  background:hsl(251, 100%, 13%)
+}
+.vid.active .subtitle{
+  color: #FFF;
+}
+
+@media(max-width:991px){
+  .videocontainer{
+    grid-template-columns: 1.5fr 1fr;
+    padding:10px;
+  }
+}
+
+@media(max-width:768px){
+  .videocontainer{
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Footer */
+
+
+.infooter{
+  margin: 0;
+  padding: 0;
+  background-color: #191919;
+}
+
+.socials{
+  display: flex;
+  justify-content: center;
+  padding-top:  40px;
+}
+
+.sociallogo{
+  list-style: none;
+}
+.sociallogo a{
+  padding: 10px 20px;
+  font-size: 35px;
+  color: #F9F9F9;
+  transition: all 0.45s;  
+}
+
+.sociallogo a:hover{
+  color: hsl(0, 100%, 59%);
+}
+
+.outfooter{
+  padding: 10px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: #F9F9F9;
+  font-size: 14px;
+  font-family: "MontRegular";
+  background-color: #191919;
+}
