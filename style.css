@@ -110,6 +110,7 @@ html{
   position: absolute;
   text-align: center;
   width: 100%;
+  padding-right: 5%;
 }
 }
 
@@ -454,6 +455,37 @@ html{
   transform: scale(1.1);
 }
 
+/*Page Buttons*/
+@media only screen and (max-width:655px){
+  .liveries h1{
+    font-size: 50px;
+  }
+  .liveries p{
+    font-size: 20px;
+  }
+  .boxes img{
+    max-width: 320px;
+    max-height: 320px;
+  }
+  .boxes2 img{
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .boxes3 img{
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+@media only screen and (max-width:500px){
+  .liveries h1{
+    font-size: 40px;
+  }
+  .liveries p{
+    font-size: 18px;
+    padding: 10px;
+  }
+}
 .btnnav{
   display: flex;
   justify-content: right;
@@ -464,8 +496,8 @@ html{
 
 .btnnav a{
   list-style: none;
-  width: 6%;
   padding: 10px;
+  width: 100px;
 }
 .btnnav .btn{
   border: none;
@@ -480,6 +512,7 @@ html{
     border: 2px solid #FFF;
     color: #FFF;
     cursor: pointer;
+    animation-iteration-count: linear;
 }
 .btnnav .btn:hover{
   background-color: hsl(0, 100%, 59%);
@@ -487,7 +520,14 @@ html{
   color: #FFF;
   transition: 0.4s;
 }
-/*Video Player*/
+
+@media only screen and (max-width:655px){
+  .btnnav{
+    justify-content: center;
+  }
+}
+
+/*Video Player*
 
 .videofeed{
   width: 100%;
@@ -611,6 +651,7 @@ html{
   }
 }
 
+*/
 
 /* Footer */
 
